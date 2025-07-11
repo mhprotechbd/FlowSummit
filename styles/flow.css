@@ -28,6 +28,7 @@ body{
     transition: all 0.3s ease;
 }
 .submit-btn {
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: bold;
     padding: 12px 36px;
@@ -35,7 +36,9 @@ body{
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
+    line-height: 150%;
     transition: all 0.3s ease; 
+    text-align: center;
 }
 
 /* Logo Design */
@@ -210,4 +213,121 @@ main{
     display: flex;
     justify-content: space-around;
     gap: 20px;
+}
+
+/* Ready To Focus Styles*/
+.ready-focus-main{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    border: none;
+    padding: 70px 150px;
+    text-align: center;
+    margin-top: 137px;
+}
+.ready-focus-main h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.ready-focus-main p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ready-focus-main button{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin: 20px auto;
+
+}
+.ready-focus-main img{
+    border-radius: 48px;
+    width: 840px;
+    border: none;
+}
+/* Contact Styles */
+.contact-main{
+    display: flex;
+    align-items: center;
+    gap: 115px;
+    justify-content: left;
+    padding: 70px 0px;
+    margin: 0 auto;
+}
+.form-main {
+  width: 100%;
+}
+.contact-main form {
+  width: 100%;
+}
+
+
+.contact-title h1 {
+  font-size: 6em;
+  color: #252432;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  width: 530px;
+}
+
+.form-group{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.form-group label{
+  display: block;
+  margin-bottom: 10px;
+  color: #252432;
+  font-weight: 600;
+}
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    padding: 20px 32px;
+    color: rgba(0, 0, 0, 0.5);
+    resize: vertical;
+}
+.get-btn{
+    width: 100%;
+}
+
+/* Footer Style */
+.footer-main{
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    margin: 105px 0;
+    width: 530px;
+}
+.footer-content p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #8987A1;
+    padding: 10px 0;
+    display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    padding: 0 15px;
+    
 }
