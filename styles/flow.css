@@ -27,20 +27,21 @@ body{
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 5px 5px 12px rgba(78, 71, 255, 0.4);
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 .submit-btn {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 12px 36px;
     color: white;
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
     line-height: 150%;
-    transition: all 0.3s ease; 
+    transition: all 0.4s ease; 
     text-align: center;
+    font-optical-sizing: auto;
 }
 
 /* Logo Design */
@@ -111,6 +112,9 @@ main{
 
 .action-content{
     text-align: left;
+}
+.action a{
+    text-decoration: none;
 }
 
 .action h1{
