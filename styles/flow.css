@@ -262,6 +262,9 @@ main{
     width: 840px;
     border: none;
 }
+.ready-focus-main a{
+    text-decoration: none;
+}
 /* Contact Styles */
 .contact-main{
     display: flex;
